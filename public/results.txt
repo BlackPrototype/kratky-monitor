@@ -1,0 +1,11 @@
+{"water_level":"0","humidity":"61.00","temperature":"19.50","date":"2022-11-30T18:01:29.182Z"}
+{"water_level":"413","humidity":"61.00","temperature":"19.40","date":"2022-11-30T18:01:59.207Z"}
+{"water_level":"428","humidity":"61.00","temperature":"19.50","date":"2022-11-30T18:02:29.235Z"}
+{"water_level":"411","humidity":"69.00","temperature":"20.10","date":"2022-11-30T18:02:59.262Z"}
+{"water_level":"422","humidity":"95.00","temperature":"23.40","date":"2022-11-30T18:03:29.290Z"}
+{"water_level":"428","humidity":"95.00","temperature":"26.40","date":"2022-11-30T18:03:59.319Z"}
+{"water_level":"416","humidity":"95.00","temperature":"24.60","date":"2022-11-30T18:04:29.346Z"}
+{"water_level":"418","humidity":"94.00","temperature":"21.60","date":"2022-11-30T18:04:59.375Z"}
+{"water_level":"415","humidity":"94.00","temperature":"21.60","date":"2022-11-30T18:05:29.404Z"}
+{"water_level":"414","humidity":"77.00","temperature":"21.40","date":"2022-11-30T18:05:59.433Z"}
+{"water_level":"388","humidity":"66.00","temperature":"21.40","date":"2022-11-30T18:06:29.462Z"}
