@@ -1,0 +1,21 @@
+.table {
+  display: table;
+}
+.table > div {
+  display: table-row;
+}
+.table > div > div {
+  padding-left: 0.5rem;
+  display: table-cell;
+}
+.nt-strong-text {
+  font-weight: bold;
+}
+.blink {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

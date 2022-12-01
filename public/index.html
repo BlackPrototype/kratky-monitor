@@ -4,9 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Kratky Monitor</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@^3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@^2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1"></script>
+  <link href="public/styles/app.css" rel="stylesheet" />
 </head>
-<body>
-  Kratky monitor
-</body>
+  <body>
+    <canvas id="kratky-chart" style="width:100%;max-height:700px"></canvas>
+    <div class="table nt-strong-text">
+      <div>
+        Select date
+        from: <input type="datetime-local" id="fromDateTime" step="1">
+        to: <input type="datetime-local" id="toDateTime" step="1">
+        <div class="blink" id="loading">Loading...</div>
+      </div>
+    </div>
+    <hr/>
+    <div id="raw"></div>
+  </body>
+  <script src="public/js/config.js"></script>
+  <script src="public/js/chart.js"></script>
 </html>

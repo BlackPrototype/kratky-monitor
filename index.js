@@ -7,7 +7,7 @@ const { SerialPort } = require('serialport')
 const { DelimiterParser } = require('@serialport/parser-delimiter')
 const port = config.app.port
 
-app.use(express.static(__dirname + '/public'))
+app.use('/public', express.static(__dirname + '/public'))
 
 const serialPort = new SerialPort({
   path: config.serial.path,
