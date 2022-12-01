@@ -21,7 +21,7 @@ void loop() {
   
   int level = readSensor();
  
-  if (isnan(h) || isnan(t)) {
+  if (isnan(h) || isnan(t) || isnan(level)) {
     Serial.println(F("Failed to read from DHT sensor!"));
     return;
   }
